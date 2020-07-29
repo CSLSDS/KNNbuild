@@ -1,9 +1,9 @@
 ##      :octocat:  A homespun K-Nearest-Neighbors Classifier  :octocat:  
 
-###              exploration
-details
----
+###            exploring machine learning algorithms
 
+  
+ 
 >The naive version of the algorithm is easy to implement by computing the distances from the test example to all stored examples, but it is computationally intensive for large training sets. Using an approximate nearest neighbor search algorithm makes k-NN computationally tractable even for large data sets. Many nearest neighbor search algorithms have been proposed over the years; these generally seek to reduce the number of distance evaluations actually performed.   
 ...  
 >Feature extraction
