@@ -1,5 +1,5 @@
 <p align="center", style="font-size:33px;">
- :octocat: A homespun K-Nearest-Neighbors Classifier :octocat:  
+ :octocat: <font size="+5">A homespun K-Nearest-Neighbors Classifier </font> :octocat:  
 </p>
 [https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html]
 
