@@ -21,7 +21,7 @@
 
 ___
 # The Closest Pair of Points Problem 
-![nope](https://en.cursor.style/resources/cursors/thumb/5e712b819e959.png) | :point_up::point_down:
+![nope](https://en.cursor.style/resources/cursors/thumb/5e712b819e959.png) | :point_up:              :point_down:
 :--|--:
 ![yep](https://en.cursor.style/resources/pointers/thumb/5e712b819e963.png)| :point_right::point_left:
 
