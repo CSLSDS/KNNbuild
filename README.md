@@ -1,6 +1,6 @@
-##          :octocat:  A homespun K-Nearest-Neighbors Classifier  :octocat:  
+##        :octocat:  A homespun K-Nearest-Neighbors Classifier  :octocat:  
 
-###                   exploration
+###              exploration
 details
 ---
 
