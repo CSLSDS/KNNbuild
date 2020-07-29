@@ -1,2 +1,3 @@
-# KNNbuild
-to satisfy requirements for a data-science-focused build applying algorithm portion of CS curriculum
+# :octocat: A homespun K-Nearest-Neighbors Classifier :octocat:
+[https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm]
+[https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html]
