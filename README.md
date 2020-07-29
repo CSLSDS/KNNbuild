@@ -1,6 +1,7 @@
-##       :octocat:  A homespun K-Nearest-Neighbors Classifier  :octocat:  
-[https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html]
+##          :octocat:  A homespun K-Nearest-Neighbors Classifier  :octocat:  
 
+###                   exploration
+details
 ---
 
 >The naive version of the algorithm is easy to implement by computing the distances from the test example to all stored examples, but it is computationally intensive for large training sets. Using an approximate nearest neighbor search algorithm makes k-NN computationally tractable even for large data sets. Many nearest neighbor search algorithms have been proposed over the years; these generally seek to reduce the number of distance evaluations actually performed.   
@@ -29,3 +30,7 @@ ___
 >A naive algorithm of finding distances between all pairs of points in a space of dimension d and selecting the minimum requires O(n2) time. It turns out that the problem may be solved in O(n log n) time in a [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space) or [Lp space](https://en.wikipedia.org/wiki/Lp_space) of fixed dimension d.[[2](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem#cite_note-2)] In the [algebraic decision tree](https://en.wikipedia.org/wiki/Algebraic_decision_tree) [model of computation](https://en.wikipedia.org/wiki/Model_of_computation), the O(n log n) algorithm is optimal, by a reduction from the [element uniqueness problem](https://en.wikipedia.org/wiki/Element_uniqueness_problem). In the computational model that assumes that the floor function is computable in constant time the problem can be solved in O(n log log n) time.[[3](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem#cite_note-fh-3)] If we allow randomization to be used together with the [floor function](https://en.wikipedia.org/wiki/Floor_function), the problem can be solved in O(n) time.[[4](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem#cite_note-km-4)][[5](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem#cite_note-rl-5)]
 >
 [https://en.wikipedia.org/wiki/Closest_pair_of_points_problem]
+
+
+# Documentation for official SciKit Learn class
+[https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html]
