@@ -7,7 +7,7 @@ class KNN:
     y_train = None
     def __init__(self, K):
         # K Nearest Neighbors requires a value for K,
-        #   which will be the number of classifications/groups created
+        #   based on # of classes, or # of 'votes' later
         self.K = K
 
     def fit(self, X_train, y_train):
@@ -36,14 +36,15 @@ class KNN:
                 # calculate euclidean distance between train obs and test obs
                 distance = self.edist(train_obs, secondary_obs)
                 # [distance, index] appended to distances for comparison
-                distances.append([distance, ix]) # Ksubset entries
+                distances.append([distance, ix]) # neighbor entries
+            # sort the neighbors by which are nearest, descending
             ranked_neighbors = sorted(distances)
             # subset ranked_neighbors to length/number defined in K
-            Ksubset = ranked_neighbors[:self.K]
+            k_nearest_neighbors = ranked_neighbors[:self.K]
 
             # assign the index matching target training observation
             #    for the top ranked neighbors (corresponding classes)
-            predict = [self.y_train[ix[1]] for ix in Ksubset]
+            predict = [self.y_train[ix[1]] for ix in k_nearest_neigbors]
             
             # return prediction with max count/"votes" as the 
             #   nearest neigbhor/most likely class
